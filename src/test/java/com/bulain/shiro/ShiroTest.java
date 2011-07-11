@@ -14,7 +14,7 @@ public class ShiroTest {
     @Test
     public void testShiro(){
         //init securityManager
-        IniSecurityManagerFactory factory = new IniSecurityManagerFactory("classpath:shiro.properties");
+        IniSecurityManagerFactory factory = new IniSecurityManagerFactory("classpath:shiro-test.properties");
         SecurityManager securityManager = factory.createInstance();
         
         //put into singleton
